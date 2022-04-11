@@ -1,0 +1,24 @@
+
+public class StringLab {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println(StringMethodLab.capitalize(""));
+		System.out.println(StringMethodLab.wheresWaldo(""));
+		//System.out.println(StringMethodLab.firstThingsFirst(""));
+		
+		String a = "Grapes"; 
+		String b = "Apples";
+		
+			if(a.compareToIgnoreCase(b) < 0) {
+				System.out.println("A");
+				//return a;
+			} else {
+				System.out.println("B");
+				//return b;
+			}
+
+	}
+
+}

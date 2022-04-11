@@ -1,0 +1,62 @@
+
+public class StringMethodLab {
+	
+	public static String capitalize(String word) {
+		
+		String capFirst = "bLaze";
+		
+		String results = capFirst.substring(0, 1).toUpperCase() 
+			   + capFirst.substring(1).toLowerCase();
+		return results;
+		
+	}
+	
+	public static String wheresWaldo(String waldo) {
+		
+		String find = "Where is Waldo in this sentense";
+		
+		String whereIs = "Waldo";
+		
+		int  indexW = find.indexOf(whereIs);
+		String indexAll = Integer.toString(indexW);
+		
+		return indexAll;
+		
+	}	
+	
+	public static String firstThingsFirst()	{
+		
+		String a = "Grapes"; 
+		String b = "Apples";
+		
+			if(a.compareToIgnoreCase(b) < 0) {
+				return a;
+			} else {
+				return b;
+			}
+		
+	}
+	
+	public static String reverse(String s) {
+		
+		char [] inverse = new char[s.length()];
+		int versIndex = 0;
+		
+		for(int i = s.length()-1; i >= 0; i--) {
+			
+			inverse[versIndex] = s.charAt(i);
+			versIndex++;
+			
+			String reversel = "";
+			for(int j = 0; j < s.length(); j++) {
+				
+				reversel = reversel + inverse[i];
+			}
+			
+		}
+		return reversel;
+		
+		
+	}
+
+}

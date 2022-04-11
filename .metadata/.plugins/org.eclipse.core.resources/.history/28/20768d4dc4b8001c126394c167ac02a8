@@ -1,0 +1,13 @@
+
+public class StringMethodLab {
+	
+	public static String capitalize(String word) {
+		
+		String capFirst = "bLaze";
+		
+		String results = capFirst.substring(0, 1).toUpperCase() + capFirst.substring(1);
+		return results;
+		
+	}
+
+}

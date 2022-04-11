@@ -1,0 +1,40 @@
+
+public class StringMethodLab {
+	
+	public static String capitalize(String word) {
+		
+		String capFirst = "bLaze";
+		
+		String results = capFirst.substring(0, 1).toUpperCase() 
+			   + capFirst.substring(1).toLowerCase();
+		return results;
+		
+	}
+	
+	public static String wheresWaldo(String waldo) {
+		
+		String find = "Where is Waldo in this sentense";
+		
+		String whereIs = "Waldo";
+		
+		int  indexW = find.indexOf(whereIs);
+		String indexAll = Integer.toString(indexW);
+		
+		return indexAll;
+		
+	}	
+	
+	public static String firstThingsFirst()	{
+		
+		String a = "Grapes"; 
+		String b = "Apples";
+		
+			if(a.compareToIgnoreCase(b) < 0) {
+				return a;
+			} else {
+				return b;
+			}
+		
+	}
+
+}

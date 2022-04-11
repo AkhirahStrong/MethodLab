@@ -1,0 +1,33 @@
+
+public class StringLab {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println(StringMethodLab.capitalize("bLaze"));  //Capitalize the letter b
+		
+		System.out.println(StringMethodLab.capitalize("a graph is right there."));  //Capitalize the letter a
+		
+		System.out.println(StringMethodLab.wheresWaldo("I can't find waldo")); //Return 13
+		
+		System.out.println(StringMethodLab.firstThingsFirst("apples", "cake")); //Return apples
+		
+		System.out.println(StringMethodLab.reverse("System")); //Return metsyS
+		
+		StringMethodLab.soLong("Hypothetically ", "short"); //could not get it to work
+		
+		StringMethodLab.soLong("Sports ", "shorts"); //could not get it to work
+		
+		StringMethodLab.letterize("Java");
+		
+		//System.out.println(StringMethodLab.letterize("Java"));
+		
+		//System.out.println(StringMethods.afterMath("This sentence lacks a certain word..."));
+		
+		//System.out.println(StringMethods.camelCase("This SentEnce wOUld Make a terrible varIABle name."));
+		
+		
+
+	}
+
+}

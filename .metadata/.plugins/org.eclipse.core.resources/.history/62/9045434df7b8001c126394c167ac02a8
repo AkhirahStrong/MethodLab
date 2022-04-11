@@ -1,0 +1,15 @@
+
+public class StringLab {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println(StringMethodLab.capitalize(""));
+		System.out.println(StringMethodLab.wheresWaldo(""));
+		System.out.println(StringMethodLab.firstThingsFirst("apples", "cake"));
+		System.out.println(StringMethodLab.reverse("System"));
+		
+
+	}
+
+}

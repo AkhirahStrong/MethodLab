@@ -1,0 +1,75 @@
+
+public class StringMethodLab {
+	
+	
+	public static String capitalize(String word) {
+		
+		String output = "";
+		
+		if (word.length() > 1) {
+			output += Character.toUpperCase(word.charAt(0));
+			output += word.substring(1).toLowerCase();
+		}else {
+			output = word.toUpperCase();
+		}
+		return output;
+	}
+	
+	
+	public static String wheresWaldo(String waldo) {
+		
+		String whereIs = "waldo";
+		
+		int  indexW = waldo.indexOf(whereIs);
+		String indexAll = Integer.toString(indexW);
+		
+		return indexAll;
+		
+	}	
+	
+	public static String firstThingsFirst(String a, String b)	{
+		
+			if(a.compareToIgnoreCase(b) <= 0) {
+				return a;
+			} else {
+				return b;
+			}
+		
+	}
+	
+	public static String reverse(String s) {
+		String output = "";
+		for (int i = s.length()-1; i >= 0; i--) {
+			output += s.charAt(i);
+		}
+		return output;
+	}
+	
+	public static void soLong(String a, String b) {
+		
+		if (a.length() == b.length()) {
+			System.out.println(a + " " + b);
+		} else if (a.length() > b.length()) {
+			System.out.println(a);
+		} else {
+			System.out.println(b);
+		}
+		
+		/*if(a.length() > b.length()) {
+			return a;
+		} else if(a.length() < b.length()) {
+			return b; 
+		}else if(a.length() == b.length()) {
+			System.out.print(a + b);
+		    
+		} */
+		
+		
+	}
+		
+
+		
+		
+}
+
+
